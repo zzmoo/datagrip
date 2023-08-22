@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
+    <data-source source="LOCAL" name="DEV" uuid="2c02410c-cbe7-4116-8032-45763db399b2">
+      <driver-ref>mongo</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.dbschema.MongoJdbcDriver</jdbc-driver>
+      <jdbc-url>mongodb+srv://dev.2iplu.mongodb.net/mongodemo?authSource=admin&amp;replicaSet=atlas-84l4n8-shard-0&amp;w=majority&amp;readPreference=primary&amp;appname=MongoDB%20Compass&amp;retryWrites=true&amp;ssl=true</jdbc-url>
+      <working-dir>$ProjectFileDir$</working-dir>
+    </data-source>
+    <data-source source="LOCAL" name="prod" uuid="070b2ed7-54f8-41a2-9a1f-78354bce1af7">
+      <driver-ref>mongo</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.dbschema.MongoJdbcDriver</jdbc-driver>
+      <jdbc-url>mongodb+srv://prod.lj0nf.mongodb.net/mongodemo?authSource=admin&amp;replicaSet=atlas-hnn8z6-shard-0&amp;w=majority&amp;readPreference=primary&amp;appname=MongoDB%20Compass&amp;retryWrites=true&amp;ssl=true</jdbc-url>
+      <working-dir>$ProjectFileDir$</working-dir>
+    </data-source>
+    <data-source source="LOCAL" name="preprod" uuid="54425e47-835b-4fe7-9768-e3dd2d67ef1c">
+      <driver-ref>mongo</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.dbschema.MongoJdbcDriver</jdbc-driver>
+      <jdbc-url>mongodb+srv://preprod.2iplu.mongodb.net/mongodemo?authSource=admin&amp;replicaSet=atlas-70pc71-shard-0&amp;w=majority&amp;readPreference=primary&amp;appname=MongoDB%20Compass&amp;retryWrites=true&amp;ssl=true</jdbc-url>
+      <working-dir>$ProjectFileDir$</working-dir>
+    </data-source>
+    <data-source source="LOCAL" name="@gcp db" uuid="5cf43e1d-baf8-4f23-904d-8e68df37a94f">
+      <driver-ref>mariadb</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.mariadb.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mariadb://34.145.53.73:3306/</jdbc-url>
+      <working-dir>$ProjectFileDir$</working-dir>
+    </data-source>
+    <data-source source="LOCAL" name="@10.20.1.10" uuid="e104f9f2-dbc8-4ef2-b147-2c216c2a11cd">
+      <driver-ref>mariadb</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.mariadb.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mariadb://10.20.1.10:3306</jdbc-url>
+      <working-dir>$ProjectFileDir$</working-dir>
+    </data-source>
+    <data-source source="LOCAL" name="raidea_test@10.20.1.10" uuid="aeaa192d-e180-4210-a31d-97e11bcd46ea">
+      <driver-ref>postgresql</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://10.20.1.10:5432/raidea_test</jdbc-url>
+      <working-dir>$ProjectFileDir$</working-dir>
+    </data-source>
+    <data-source source="LOCAL" name="Oracle [cloud]" uuid="eac9641f-1455-4072-8a39-f63caacea1ce">
+      <driver-ref>9563be8a-22c9-4fe4-ad02-c9ae866bc7b8</driver-ref>
+      <synchronize>true</synchronize>
+      <auto-commit>false</auto-commit>
+      <jdbc-driver>oracle.jdbc.OracleDriver</jdbc-driver>
+      <jdbc-url>jdbc:oracle:thin:@orcl_high</jdbc-url>
+      <jdbc-additional-properties>
+        <property name="TNSADMIN_DIR" value="$USER_HOME$/Oracle/Wallet_orcl" />
+      </jdbc-additional-properties>
+      <working-dir>$ProjectFileDir$</working-dir>
+      <vm-env>
+        <property name="ORACLE_HOME" value="path" />
+      </vm-env>
+    </data-source>
+    <data-source source="LOCAL" name="BCAS" uuid="943406dc-d232-4594-8ea9-936f62dc1af7">
+      <driver-ref>mysql.8</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://52.79.214.235:23303/bcas</jdbc-url>
+      <working-dir>$ProjectFileDir$</working-dir>
+    </data-source>
+    <data-source source="LOCAL" name="DMS db" uuid="9a28eac1-cadf-4f72-b64d-0d539cf32c6f">
+      <driver-ref>mariadb</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.mariadb.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mariadb://43.201.21.40:33306/dms</jdbc-url>
+      <working-dir>$ProjectFileDir$</working-dir>
+    </data-source>
+  </component>
+</project>
