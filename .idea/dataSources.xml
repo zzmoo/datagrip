@@ -26,7 +26,7 @@
       <driver-ref>mariadb</driver-ref>
       <synchronize>true</synchronize>
       <jdbc-driver>org.mariadb.jdbc.Driver</jdbc-driver>
-      <jdbc-url>jdbc:mariadb://34.145.53.73:3306/</jdbc-url>
+      <jdbc-url>jdbc:mariadb://34.127.114.41:3306/</jdbc-url>
       <working-dir>$ProjectFileDir$</working-dir>
     </data-source>
     <data-source source="LOCAL" name="@10.20.1.10" uuid="e104f9f2-dbc8-4ef2-b147-2c216c2a11cd">
@@ -68,7 +68,81 @@
       <driver-ref>mariadb</driver-ref>
       <synchronize>true</synchronize>
       <jdbc-driver>org.mariadb.jdbc.Driver</jdbc-driver>
-      <jdbc-url>jdbc:mariadb://43.201.21.40:33306/dms</jdbc-url>
+      <jdbc-url>jdbc:mariadb://43.200.175.220:33306/dms</jdbc-url>
+      <working-dir>$ProjectFileDir$</working-dir>
+    </data-source>
+    <data-source source="LOCAL" name="OPC DB" uuid="4e963840-1024-47cd-b46f-c1aece7d7e31">
+      <driver-ref>mariadb</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.mariadb.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mariadb://144.24.79.165:3306</jdbc-url>
+      <working-dir>$ProjectFileDir$</working-dir>
+    </data-source>
+    <data-source source="LOCAL" name="DMS db prod" uuid="0d5122af-d34e-4f37-b6af-9a964076cf6f">
+      <driver-ref>mysql.8</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://dms-prd.cluster-cpvfuydahhry.ap-northeast-2.rds.amazonaws.com:32532/dms</jdbc-url>
+      <working-dir>$ProjectFileDir$</working-dir>
+    </data-source>
+    <data-source source="LOCAL" name="Charge" uuid="b0f65795-fff0-4eb6-8ebb-24dac3d079ff">
+      <driver-ref>mysql.8</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://10.20.1.10:13306</jdbc-url>
+      <working-dir>$ProjectFileDir$</working-dir>
+    </data-source>
+    <data-source source="LOCAL" name="st uk db" uuid="4b2fd684-59f1-48db-8d26-ca8ae8f72389">
+      <driver-ref>mysql.8</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://uk-database-1.cqejbpefurv1.eu-west-2.rds.amazonaws.com:13066/homecharger_test</jdbc-url>
+      <working-dir>$ProjectFileDir$</working-dir>
+    </data-source>
+    <data-source source="LOCAL" name="gcp redis" uuid="df50c64e-cf26-4483-b651-af02d8887c53">
+      <driver-ref>redis</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>jdbc.RedisDriver</jdbc-driver>
+      <jdbc-url>jdbc:redis://35.247.19.44:16380</jdbc-url>
+      <working-dir>$ProjectFileDir$</working-dir>
+    </data-source>
+    <data-source source="LOCAL" name="prod uk db" uuid="13d58ace-2594-4251-b923-37297c2307f9">
+      <driver-ref>mysql.8</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://london-database.cqejbpefurv1.eu-west-2.rds.amazonaws.com:13066/homecharger_test</jdbc-url>
+      <working-dir>$ProjectFileDir$</working-dir>
+    </data-source>
+    <data-source source="LOCAL" name="seocho db" uuid="3ed883f4-5a20-44cd-b60d-cf2a5c88c89f">
+      <driver-ref>mysql.8</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://132.226.21.55:3306/homecharger_test</jdbc-url>
+      <working-dir>$ProjectFileDir$</working-dir>
+      <keep-alive timeout="6000" />
+    </data-source>
+    <data-source source="LOCAL" name="redis raidea" uuid="9abdf644-2091-475a-b644-d0a28fdc2c04">
+      <driver-ref>redis</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>jdbc.RedisDriver</jdbc-driver>
+      <jdbc-url>jdbc:redis:cluster://redis7.dev.raidea.io:26379</jdbc-url>
+      <working-dir>$ProjectFileDir$</working-dir>
+      <driver-properties>
+        <property name="verifyConnectionMode" value="false" />
+      </driver-properties>
+    </data-source>
+    <data-source source="LOCAL" name="st eu db" uuid="00365960-d62e-4e4f-b0a0-a8559ea88864">
+      <driver-ref>mysql.8</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://de-db.humaxcharging.com:6603/homecharger_test</jdbc-url>
+      <working-dir>$ProjectFileDir$</working-dir>
+    </data-source>
+    <data-source source="LOCAL" name="prod eu db" uuid="e422658a-af6b-400d-ab4b-5af8f0665621">
+      <driver-ref>mysql.8</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://europe-database.ceut7wg7o8cs.eu-west-3.rds.amazonaws.com:13066/homecharger_test</jdbc-url>
       <working-dir>$ProjectFileDir$</working-dir>
     </data-source>
   </component>
