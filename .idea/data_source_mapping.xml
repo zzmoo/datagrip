@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourcePerFileMappings">
+    <file url="dbSrc:///367c388d/13d58ace-2594-4251-b923-37297c2307f9/schema/homecharger_test/routine/clean_old_batch_data_tablewise@(int,int)P.sql" value="13d58ace-2594-4251-b923-37297c2307f9" />
+    <file url="file://$APPLICATION_CONFIG_DIR$/consoles/db/03893ef1-1ff2-4cf5-ac01-7b073e8401cf/console_4.sql" value="03893ef1-1ff2-4cf5-ac01-7b073e8401cf" />
+    <file url="file://$APPLICATION_CONFIG_DIR$/consoles/db/13d58ace-2594-4251-b923-37297c2307f9/console_26.sql" value="13d58ace-2594-4251-b923-37297c2307f9" />
+    <file url="file://$APPLICATION_CONFIG_DIR$/consoles/db/13d58ace-2594-4251-b923-37297c2307f9/console_27.sql" value="13d58ace-2594-4251-b923-37297c2307f9" />
+    <file url="file://$APPLICATION_CONFIG_DIR$/consoles/db/13d58ace-2594-4251-b923-37297c2307f9/console_28.sql" value="13d58ace-2594-4251-b923-37297c2307f9" />
+    <file url="file://$APPLICATION_CONFIG_DIR$/consoles/db/13d58ace-2594-4251-b923-37297c2307f9/console_29.sql" value="13d58ace-2594-4251-b923-37297c2307f9" />
+    <file url="file://$APPLICATION_CONFIG_DIR$/consoles/db/413c8110-71eb-4cfc-92a8-736e0974ea85/console.sql" value="413c8110-71eb-4cfc-92a8-736e0974ea85" />
+    <file url="file://$APPLICATION_CONFIG_DIR$/consoles/db/413c8110-71eb-4cfc-92a8-736e0974ea85/console_1.sql" value="413c8110-71eb-4cfc-92a8-736e0974ea85" />
+    <file url="file://$APPLICATION_CONFIG_DIR$/consoles/db/654486a7-7519-4980-9de1-9df9c3793fdc/console.sql" value="654486a7-7519-4980-9de1-9df9c3793fdc" />
+    <file url="file://$APPLICATION_CONFIG_DIR$/consoles/db/7f5efbef-d103-4747-9174-f908c7e77e13/console_6.sql" value="7f5efbef-d103-4747-9174-f908c7e77e13" />
+    <file url="file://$APPLICATION_CONFIG_DIR$/consoles/db/7f5efbef-d103-4747-9174-f908c7e77e13/console_8.sql" value="7f5efbef-d103-4747-9174-f908c7e77e13" />
+    <file url="file://$APPLICATION_CONFIG_DIR$/consoles/db/7f5efbef-d103-4747-9174-f908c7e77e13/console_9.sql" value="7f5efbef-d103-4747-9174-f908c7e77e13" />
+    <file url="file://$APPLICATION_CONFIG_DIR$/consoles/db/a12cfe5b-4211-4adb-a8bd-b4adf4bd0754/console_2.sql" value="a12cfe5b-4211-4adb-a8bd-b4adf4bd0754" />
+    <file url="file://$APPLICATION_CONFIG_DIR$/consoles/db/a12cfe5b-4211-4adb-a8bd-b4adf4bd0754/console_3.sql" value="a12cfe5b-4211-4adb-a8bd-b4adf4bd0754" />
+    <file url="file://$APPLICATION_CONFIG_DIR$/consoles/db/a12cfe5b-4211-4adb-a8bd-b4adf4bd0754/console_4.sql" value="a12cfe5b-4211-4adb-a8bd-b4adf4bd0754" />
+    <file url="file://$APPLICATION_CONFIG_DIR$/consoles/db/ed378b6e-0ac7-4f05-bfd2-95056ed002c1/console_13.sql" value="ed378b6e-0ac7-4f05-bfd2-95056ed002c1" />
+    <file url="file://$APPLICATION_CONFIG_DIR$/consoles/db/ed378b6e-0ac7-4f05-bfd2-95056ed002c1/console_14.sql" value="ed378b6e-0ac7-4f05-bfd2-95056ed002c1" />
+  </component>
+</project>
